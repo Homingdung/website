@@ -282,9 +282,9 @@
 				$.ajax({   	
 			      type: "POST",
 			      /* url: "inc/sendEmail.php", */
-				  url: "https://formspree.io/xqkevnyb",
+				  url: "https://formspree.io/f/xzbyjnaq",
 				  async: true,
-				  data: values,
+				  data: obj,
 				  dataType: "json",
 			      /*data: $(form).serialize(),*/
 
