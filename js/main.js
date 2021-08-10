@@ -281,8 +281,12 @@
 
 				$.ajax({   	
 			      type: "POST",
-			      url: "inc/sendEmail.php",
-			      data: $(form).serialize(),
+			      /* url: "inc/sendEmail.php", */
+				  url: "https://formspree.io/xqkevnyb",
+				  async: true,
+				  data: values,
+				  dataType: "json",
+			      /*data: $(form).serialize(),*/
 
 			      beforeSend: function() { 
 			      	sLoader.fadeIn(); 
